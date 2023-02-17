@@ -1,0 +1,27 @@
+.desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+ }
+
+ .rating{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #729c1ed9;
+ }
+
+ .add-cart{
+    background-color: #1dc5c5;
+    color: white;
+ }
+ 
+ .ml-2{
+    margin-right: 3px;
+ }
+
+ .mat-20{
+    margin: 20px 0;
+ }

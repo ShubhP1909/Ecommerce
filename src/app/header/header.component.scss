@@ -1,0 +1,29 @@
+.title{
+    color: #729c1ed9 !important;
+}
+
+.home{
+    color: #1dc5c5 !important;
+}
+
+.login{
+    background-color: #79a02ced;
+    color: white;
+}
+
+.signup{
+    background-color: #729c1ed9;
+    color: white;
+}
+
+.cart-icon{
+font-size: 30px;
+color: #729c1ed9;
+}
+
+
+@media (min-width:720px) {
+    .w-600{
+        width: 600px;
+    }
+}

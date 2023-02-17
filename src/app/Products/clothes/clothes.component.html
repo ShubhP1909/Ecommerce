@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row mat-20">
+        <div *ngFor="let item of clothes" class="col-md-4">
+                <div class="card mb-4">
+                    <img [src]="item.image" class="card-img-top" alt="clothes" [routerLink]= "['' + item.id]" height="300" width="300">
+                    <div class="card-body desc">
+                        <h4 class="card-title">{{item.title}}</h4>
+                        <p class="card-text">{{item.description}}</p>
+                        <h5>{{item.category}}</h5>
+                        <div class="rating">
+                        <i class="fa fa-star ml-2" aria-hidden="true"></i>
+                        <h6 class="m-0">{{item.rating.rate}}</h6>
+                        </div>
+                        <p>{{item.price | currency}}</p>
+                        <div class="text-center">
+                        <button href="#" class="btn add-cart mt-2">Add to Cart</button>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
